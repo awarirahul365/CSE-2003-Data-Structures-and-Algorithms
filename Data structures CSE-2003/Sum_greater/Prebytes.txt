@@ -1,0 +1,1 @@
+Given an array of numbers,write a program to find a number which has same sum of numbers on it's either side.
