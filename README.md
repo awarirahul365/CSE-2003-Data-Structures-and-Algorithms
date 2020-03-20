@@ -1,2 +1,2 @@
 # CSE-2003-Data-Structures-and-Algorithms
-Assignment for Course CSE-2003
+Solutions to GeeksforGeeks,Hackerrank and Hackerearth pratice problems and CSE-2003 course assignments.
