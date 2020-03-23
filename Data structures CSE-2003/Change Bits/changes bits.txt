@@ -1,0 +1,24 @@
+Given a number you are required to complete two tasks 
+Task 1 .Generate a new number form the old number by changing  the number of zeroes in the binary representation of that  number to 1
+Task  2. Find what will be added to old number to generate the new number .
+
+Input:
+The first line consists of T test cases. Then T test cases follow. The next T lines will consist of a number N.
+
+Output:
+Output the difference between those 2 numbers separated by the new number.
+
+Constraints:
+1<=T<=10000
+1<=N<=100000
+
+Example:
+Input:
+2
+8
+6
+Output:
+7 15
+1 7
+Explanation:
+For first test case there are 3 zeroes in binary representation of 8 . Changing them to 1 will give 15. Difference between two is 7.
