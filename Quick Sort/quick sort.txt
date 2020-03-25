@@ -1,1 +1,0 @@
-Code for quick sort in c.
