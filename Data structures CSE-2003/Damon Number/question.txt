@@ -1,0 +1,32 @@
+Damon wants to become a mathematician . He tries different combination of numbers and keeps playing with them . Once he found a different kind of numbers and named them as Damon Prime . For example :  4 is a damon prime , 6 is a damon prime , 102 is a damon prime , etc .
+Now Damon wants to test you , he will give you an integer " N " , you need to find whether the number is Damon Prime or not . 
+
+Input:
+    First line of input contains no. of testcases .
+    Second line contains the integer " N "  for which you have to check whether it is damon prime or not . 
+ 
+
+Output:
+     Output for each test case is of one line with output as " Y "  when the input integer is damon prime else  " N " . 
+ 
+
+Constraints: 
+ 1 < = T < = 10^4
+1 < = N < = 10^4 
+ 
+
+Example:
+Input:
+5
+642
+5
+1998
+348
+9
+
+Output:
+Yes
+No
+Yes
+Yes
+No
