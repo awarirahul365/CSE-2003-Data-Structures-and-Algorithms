@@ -1,21 +1,26 @@
-Given a sorted array A, size N, of integers; every element appears twice except for one. Find that element that appears once in array.
+Given a sorted array with possibly duplicate elements. The task is to find indexes of first and last occurrences of an element X in the given array.
 
 Input:
-The first line of input consists of T, the number of the test cases. T testcases follow. Each testcase contains two lines of input.
-The first line of each test case contains the size of the array, and the second line has the elements of the array.
+The first line of input contains an integer T denoting the no of test cases. Then T test cases follow. Each test case contains an integer N denoting the size of the array. Then in the next line are N space separated values of the array. The last line of each test case contains an integer X.
 
 Output:
-For each testcase, in a new line, print the number that appears only once in the array.
+For each test case in a new line print two integers separated by space denoting the first and last occurrence of the element X. If the element is not present in the array print -1.
 
 Constraints:
-1 = T = 100
-1 = N = 107
-0 = A[i] = 1017
+1 <= T <= 100
+1 <= N <= 1000
+1 <= A[], X <= 1018
 
 Example:
 Input:
-1
-11
-1 1 2 2 3 3 4 50 50 65 65
+2
+9
+1 3 5 5 5 5 67 123 125
+5
+9
+1 3 5 5 5 5 7 123 125
+7
+
 Output:
-4
+2 5
+6 6
