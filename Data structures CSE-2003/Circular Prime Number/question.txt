@@ -1,0 +1,33 @@
+A prime number is a Circular Prime Number if all of its possible rotations are itself prime numbers. Now given a number N check if it is Circular Prime or Not.
+
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. Each test case contains an integer N.
+
+Output:
+For each test case in a new line print 1 if the number is circular prime else 0.
+
+Constraints:
+1 <= T <= 100
+1 <= N <= 104
+
+Example:
+Input:
+2
+197
+101
+Output:
+1
+0
+
+Explanation:
+For first test case:
+197 is a Circular Prime because all rotations of 197 are
+197, 719, 971 all of the 3 are prime number's
+hence 197 is a circular prime
+
+For second test case:
+101 isn't a prime number as
+rotation of 101 yields 110 which isn't a prime number
+hence 101 isn't circular prime
+
+** For More Input/Output Examples Use 'Expected Output' option **
