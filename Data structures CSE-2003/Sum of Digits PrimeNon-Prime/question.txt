@@ -1,0 +1,31 @@
+Given a number N, you need to write a program that finds the sum of digits of the number till the number becomes a single digit and then check whether the number is Prime/Non-Prime.
+Example:
+
+Input : 5602
+Output: No
+Step 1- 5+6+0+2 = 13
+Step 2- 1+3 = 4 
+4 is not prime
+
+Input : 56
+Output : Yes
+Step 1- 5+6 = 11
+Step 2- 1+1 = 2 hence 2 is prime 
+Input:
+First line of the input contains an integer T, denoting the number of test cases. Then T test case follows. The only lone of each testcase contains the integer N.
+
+Output:
+For each test case print "P" if the resultant is prime and "NP" if the number is Non-prime.
+
+Constraints:
+1<=T<=103
+1<=N<=105
+
+Example:
+Input:
+2
+1903
+25
+Output:
+NP
+P
