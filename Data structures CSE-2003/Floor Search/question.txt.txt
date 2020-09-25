@@ -1,0 +1,9 @@
+/*
+Floor in a sorted array
+
+arr = [1,5,10,15,15,20,25]  
+x = 11  Output = 10
+x = 1 Output = 1
+x = 25 Output = 25
+x = 50 Output = 25
+*/
