@@ -53,7 +53,7 @@ class copycc
 		val2=num2;
 	}
 	//copy constructor
-	copycc(const copycc &m1)
+	copycc(const copycc &m1)//syntax for copy constructor
 	{
 		val1=m1.val1;
 		val2=m1.val2;	
