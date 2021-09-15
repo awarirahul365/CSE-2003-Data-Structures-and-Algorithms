@@ -1,3 +1,5 @@
+
+//learning from amadeus labs test
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
