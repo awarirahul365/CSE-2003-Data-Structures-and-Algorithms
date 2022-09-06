@@ -69,7 +69,7 @@ void bus::book_tickets(int x,int y,int z)
 	{
 		if(b[i].busno==z)
 		{
-			seats[x][y]=-1;
+			b[i].seats[x][y]=-1;
 			cout<<"Seat arrangement"<<endl;
 			for(int i=0;i<8;i++)
 			{
@@ -80,32 +80,32 @@ void bus::book_tickets(int x,int y,int z)
 }
 int main()
 {
-	int choice;
-	cout<<"Enter choice";
-	cin>>choice;
-	if(choice==1)
+	
+	int g=1;
+	while(g)
 	{
-		b[p].bus_addition();
-		cout<<"Continue";
-		int nt;
-		cin>>nt;
-		choice=nt;
-	}
-	if(choice==2)
-	{
-		b[0].show_details();
-		cout<<"Continue booking";
-		int t;
-		cin>>t;
-		choice=t;
-	}
-	if(choice==3)
-	{
-		int r,c,z;
-		cout<<"Enter row and col";
-		cin>>r>>c;
-		cout<<"Enter Bus No book";
-		cin>>z;
-		b[0].book_tickets(r,c,z);
+		int choice;
+		cout<<"Enter choice";
+		cin>>choice;
+		switch(choice)
+		{
+			case 1:
+				b[p].bus_addition();
+				break;
+			case 2:
+				b[0].show_details();
+				break;
+			case 3:
+				int r,c,z;
+				cout<<"Enter row and col";
+				cin>>r>>c;
+				cout<<"Enter Bus No book";
+				cin>>z;
+				b[0].book_tickets(r,c,z);
+				break;
+			default:
+				break;
+		}
+		
 	}
 }
